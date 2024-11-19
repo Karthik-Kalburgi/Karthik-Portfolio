@@ -3,74 +3,41 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `As a React JS Developer with a strong foundation in HTML, CSS, JavaScript, and React, I have gained hands-on experience working as an intern for 6 months, where I developed and deployed a full-fledged project using React JS. My expertise includes building responsive and dynamic user interfaces, implementing state management, and integrating backend services to create seamless user experiences. Additionally, I have a working knowledge of Next.js for server-side rendering and MongoDB for database management. Throughout my internship, I honed my problem-solving skills, collaborated with cross-functional teams, and delivered high-quality solutions while maintaining a strong focus on performance optimization and best practices in front-end development.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `As a dedicated full-stack developer intern, I have gained hands-on experience in building and deploying interactive 3D models using ReactJS and the Three.js library, alongside leveraging Blender to design customizable wardrobes in 3D. My work involved developing a user-friendly interface where customers can personalize their wardrobes and see real-time updates of their design preferences. I have strong expertise in front-end technologies such as HTML, CSS, ReactJS, Next.js, and Tailwind CSS, with a focus on creating responsive, high-performance web applications. My experience also includes collaborating in a fast-paced environment, ensuring high-quality code, and delivering solutions that meet customer requirements.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
+    year: "2024 - Present",
     role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    company: "ACUBIQ PVT LTD",
+    description: `During my internship, I designed and developed a dynamic MERN stack application allowing users to customize 3D wardrobe models in real-time. I utilized GLTF files created in Blender, integrating Babylon.js and Three.js to render interactive 3D visuals and enable dynamic modifications to textures, colors, and styles of wardrobe items, enhancing the user experience with instant visual feedback. Additionally, I contributed to the design and development of a responsive, user-centric landing page for the Acubiq platform using ReactJS, Next.js, and Tailwind CSS, optimizing the front-end for performance and ensuring seamless navigation across desktop and mobile devices, which improved user engagement and conversions.`,
+    technologies: ["Javascript", "React.js", "Next.js", "mongoDB","HTML5", "CSS3","BootStrap"],
   },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+  
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "ACUBIQ PVT LTD.",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Developed an innovative MERN stack 3D Wardrobe Customization Application, leveraging Babylon.js and Three.js to enable real-time interactive 3D model rendering and dynamic texture/color modifications using GLTF files created in Blender. Implemented responsive front-end design for Acubiq platform using ReactJS, Next.js, and Tailwind CSS, optimizing user experience and interface performance across multiple devices. Successfully enhanced user engagement through intuitive 3D visualization techniques and seamless, responsive web design that improved platform interaction and conversion rates.",
+    technologies: ["JavaScript", "React", "NextJS", "MongoDB", "HTML5","CSS3"],
   },
   {
-    title: "Task Management App",
+    title: "TodoList ",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "React-powered Todo List web application using Next.js and Tailwind CSS, implementing dynamic state management with React Hooks to enable real-time task creation and deletion. Developed responsive, interactive user interface with full CRUD functionality, demonstrating proficiency in modern front-end development techniques.",
+    technologies: ["HTML", "CSS", "JavaScript", "React" , "NextJS"],
   },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
+  
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "RR Nagar Bangalore  560098 ",
+  phoneNo: "+91-9900448193",
+  email: "kalburgikarthik0105@gmail.com",
 };
