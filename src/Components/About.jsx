@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImg from "../assets/about.jpg";  // Corrected typo (adboutImg -> aboutImg)
+import aboutImg from "../assets/Coding.jpg"; // Corrected typo (adboutImg -> aboutImg)
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
 
@@ -24,7 +24,7 @@ const About = () => {
 
         <motion.div
           whileInView={{ opacity: 1, x: 0 }}
-          initial={{ opacity: 0, x: 100 }} 
+          initial={{ opacity: 0, x: 100 }}
           className="w-full lg:w-1/2"
         >
           <div className="flex justify-center lg:justify-start">

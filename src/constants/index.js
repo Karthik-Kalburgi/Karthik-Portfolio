@@ -1,7 +1,7 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+
 
 export const HERO_CONTENT = `As a React JS Developer with a strong foundation in HTML, CSS, JavaScript, and React, I have gained hands-on experience working as an intern for 6 months, where I developed and deployed a full-fledged project using React JS. My expertise includes building responsive and dynamic user interfaces, implementing state management, and integrating backend services to create seamless user experiences. Additionally, I have a working knowledge of Next.js for server-side rendering and MongoDB for database management. Throughout my internship, I honed my problem-solving skills, collaborated with cross-functional teams, and delivered high-quality solutions while maintaining a strong focus on performance optimization and best practices in front-end development.`;
 
@@ -32,6 +32,13 @@ export const PROJECTS = [
     description:
       "React-powered Todo List web application using Next.js and Tailwind CSS, implementing dynamic state management with React Hooks to enable real-time task creation and deletion. Developed responsive, interactive user interface with full CRUD functionality, demonstrating proficiency in modern front-end development techniques.",
     technologies: ["HTML", "CSS", "JavaScript", "React" , "NextJS"],
+  },
+  {
+    title: "My Personal Portfolio ",
+    image: project3,
+    description:
+      "Designed and developed a responsive personal portfolio website using React.js, showcasing professional expertise with advanced front-end technologies including Tailwind CSS, Framer Motion, and React Icons. Implemented a dynamic, visually engaging single-page application with smooth animations and responsive design, demonstrating proficiency in modern web development techniques and creating an interactive user experience that effectively highlights professional skills and projects. Utilized component-based architecture and sophisticated styling approaches to create a performant, visually compelling digital portfolio that emphasizes clean code structure and responsive design principles.",
+    technologies: ["HTML", "CSS", "JavaScript", "React" , "NextJS" ,"TailwindCSS"],
   },
   
 ];
