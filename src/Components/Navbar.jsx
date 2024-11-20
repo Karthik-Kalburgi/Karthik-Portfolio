@@ -8,27 +8,53 @@ import { MdOutlineMailOutline } from "react-icons/md";
 
 const Navbar = () => {
   return (
-    <nav className="mb-20 flex items-center justify-between py-6 ">
-      <div className="flex flex-shrink-0 items-center ">
-        <img className="mx-2 w-10" src={logo} alt="logo"></img>
+    <nav className="mb-20 flex items-center justify-between py-6">
+      <div className="flex flex-shrink-0 items-center">
+        <img className="mx-2 w-10" src={logo} alt="logo" />
       </div>
-      <div>
-        <button className="text-xl flex  bg-neutral-900 text-white py-2 px-4 rounded-lg shadow-lg hover:bg-blue-600 transition duration-300">
-          <a href="https://drive.google.com/file/d/1h3rEPTxNthpFp3HAmUtNObL1uhI3j_n5/view" />
-          MyResume
-        </button>
-      </div>
+
+      <a
+        href="https://drive.google.com/file/d/1h3rEPTxNthpFp3HAmUtNObL1uhI3j_n5/view"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-xl flex bg-neutral-900 text-white py-2 px-4 rounded-lg shadow-lg hover:bg-blue-600 transition duration-300"
+      >
+        MyResume
+      </a>
+
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <a href="https://www.linkedin.com/in/karthik-kalburgi-572711228/">
+        <a
+          href="https://www.linkedin.com/in/karthik-kalburgi-572711228/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-blue-500 transition duration-300"
+        >
           <FaLinkedin />
         </a>
-        <a href="https://github.com/Karthik-Kalburgi">
-          <FaGithub />{" "}
+        <a
+          href="https://github.com/Karthik-Kalburgi"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-gray-700 transition duration-300"
+        >
+          <FaGithub />
         </a>
-        <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=DmwnWtDqMzgMlqwPLpTMDjfPgqZCQlWVrdsbZLRzmPZLMnntZsrRzVQNHlTkGBwTxVPlvcHHhhVL">
-          <MdOutlineMailOutline />{" "}
+        <a
+          href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=DmwnWtDqMzgMlqwPLpTMDjfPgqZCQlWVrdsbZLRzmPZLMnntZsrRzVQNHlTkGBwTxVPlvcHHhhVL"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-red-600 transition duration-300"
+        >
+          <MdOutlineMailOutline />
         </a>
-        <FaInstagram />
+        <a
+          href="https://www.instagram.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-pink-500 transition duration-300"
+        >
+          <FaInstagram />
+        </a>
       </div>
     </nav>
   );
