@@ -32,7 +32,7 @@ export const PROJECTS = [
     image: project2,
     description:
       "Developed a responsive healthcare website for Dr. Santosh Chikkodi using ReactJS, TailwindCSS, and Node.js, integrating EmailJS for secure patient communication and appointment requests Implemented SEO optimization, lazy loading, and animations with Framer Motion to enhance performance, accessibility, and user engagement across devices.",
-    technologies: ["React", "JavaScript", "", "TailwindCSS" , "EmailJS"],
+    technologies: ["React", "JavaScript",  "TailwindCSS" , "EmailJS"],
   },
   {
     title: "My Personal Portfolio ",
