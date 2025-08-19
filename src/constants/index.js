@@ -1,5 +1,6 @@
 import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
+
+import project2 from "../assets/projects/project-2.jpeg";
 import project3 from "../assets/projects/project-3.jpg";
 
 
@@ -27,11 +28,11 @@ export const PROJECTS = [
     technologies: ["JavaScript", "React", "NextJS", "MongoDB", "HTML5","CSS3"],
   },
   {
-    title: "TodoList ",
+    title: "Cardiologist Website ",
     image: project2,
     description:
-      "React-powered Todo List web application using Next.js and Tailwind CSS, implementing dynamic state management with React Hooks to enable real-time task creation and deletion. Developed responsive, interactive user interface with full CRUD functionality, demonstrating proficiency in modern front-end development techniques.",
-    technologies: ["HTML", "CSS", "JavaScript", "React" , "NextJS"],
+      "Developed a responsive healthcare website for Dr. Santosh Chikkodi using ReactJS, TailwindCSS, and Node.js, integrating EmailJS for secure patient communication and appointment requests Implemented SEO optimization, lazy loading, and animations with Framer Motion to enhance performance, accessibility, and user engagement across devices.",
+    technologies: ["React", "JavaScript", "", "TailwindCSS" , "EmailJS"],
   },
   {
     title: "My Personal Portfolio ",

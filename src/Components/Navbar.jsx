@@ -14,12 +14,12 @@ const Navbar = () => {
       </div>
 
       <a
-        href="https://drive.google.com/file/d/1wNurfb57P82-ItnHAQxgbCnKGuzLT81l/view?usp=sharing"
+        href="https://drive.google.com/file/d/1kxsLG8DkG8usbxcewU6m4oz88mEFyl30/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
         className="text-xl flex bg-neutral-900 text-white py-2 px-4 rounded-lg shadow-lg hover:bg-blue-600 transition duration-300"
       >
-        MyResume
+        My Resume
       </a>
 
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
